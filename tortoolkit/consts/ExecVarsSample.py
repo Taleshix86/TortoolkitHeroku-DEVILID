@@ -11,16 +11,16 @@ except:
         BOT_TOKEN = os.environ.get("BOT_TOKEN")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001564672569,1329541902]
+        ALD_USR = [1069453449]
         
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 5
+        EDIT_SLEEP_SECS = 8
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2097152000
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress 
         COMPLETED_STR = "▰"
@@ -55,7 +55,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 15
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
@@ -66,7 +66,7 @@ except:
         # CHANGE THESE AT YOUR RISK
         LOCKED_USERS = False
         RSTUFF = False
-        FORCE_DOCS_USER = False
+        FORCE_DOCS_USER = True
         FAST_UPLOAD = True
         METAINFO_BOT = False
         
